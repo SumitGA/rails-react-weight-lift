@@ -16,10 +16,10 @@
       0
   handleValueChange: (e) ->
     valueName = e.target.name
-    @setState "#{ valueName }":e.target.value
+    @setState "#{ valueName }": e.target.value
   toggleUnit: (e) ->
     e.preventDefault()
-    @setStage.ismetric: !@state.ismetric
+    @setState ismetric: !@state.ismetric
   valid: ->
     @state.date && @state.liftname && @state.weightlifted && @state.repsperformed && @state.onerm
   handleSubmit: (e) ->
