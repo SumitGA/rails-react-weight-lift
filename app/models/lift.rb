@@ -1,0 +1,4 @@
+class Lift < ApplicationRecord
+    
+
+end
