@@ -1,4 +1,4 @@
-@Lift = React.createCreate
+@Lift = React.createClass
   render: ->
     React.DOM.tr null,
       React.DOM.td null, @props.lift.date
